@@ -1,107 +1,112 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>حدث الخيول - 7 نوفمبر 2025 | MRGH Events</title>
-  <link rel="stylesheet" href="style.css">
-  <meta name="description" content="يوم ترفيهي متكامل - عروض خيل، أكل، ألعاب، سينما وأنشطة للأطفال. احجز تذكرتك الآن.">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SPOTKER & GH Menu</title>
+  <style>
+    body {
+      font-family: 'Cairo', sans-serif;
+      background-color: #f7f2ec;
+      color: #4b2e19;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background-color: #3b2416;
+      color: #fff;
+      padding: 20px;
+      font-size: 1.8em;
+      font-weight: bold;
+    }
+    section {
+      margin: 30px auto;
+      width: 90%;
+      max-width: 600px;
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 20px;
+    }
+    h2 {
+      color: #3b2416;
+      border-bottom: 2px solid #d2b48c;
+      display: inline-block;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    li {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0;
+      border-bottom: 1px solid #eee;
+      font-size: 1.1em;
+    }
+    footer {
+      margin: 40px 0;
+      font-size: 0.9em;
+      color: #6a4b32;
+    }
+  </style>
 </head>
 <body>
-  <header class="hero">
-    <div class="hero-top">
-      <!-- logo visible and centered -->
-      <img src="images/logo.png" alt="MRGH Events" class="logo" id="logoImg"/>
-      <div class="countdown" id="countdown" aria-live="polite"></div>
-    </div>
-    <div class="overlay">
-      <h1>يوم واحد.... يجمع كل المتعة في مكان واحد</h1>
-      <p class="date">الجمعة — 7 نوفمبر 2025</p>
-      <a class="btn primary" id="bookTop">احجز تذكرتك الآن العدد محدود</a>
-    </div>
-  </header>
+  <header>SPOTKER & GH ☕🐎</header>
 
-  <main class="container">
-    <section class="about">
-      <h2>عن الحدث</h2>
-      <p>يوم ترفيهي متكامل: عروض خيل، إفطار وغداء، بلياردو، بلايستيشن، دومينو وطاولة، سينما مفتوحة ومسابقات).</p>
-      <div class="gallery">
-        <div class="card"><img src="images/552016332_18284469064262961_2664682168184374950_n.webp" alt="عرض خيل" /></div>
-        <div class="card"><img src="images/510959845_17857857297446891_1405016983705303164_n.webp" alt="الإفطار والغداء" /></div>
-        
-      </div>
-    </section>
+  <section>
+    <h2>☕ قهوة ومشروبات ساخنة</h2>
+    <ul>
+      <li><span>قهوة تركي سنجل</span><span>30</span></li>
+      <li><span>قهوة تركي دابل</span><span>40</span></li>
+      <li><span>قهوة فرنساوي سنجل</span><span>35</span></li>
+      <li><span>قهوة فرنساوي دابل</span><span>45</span></li>
+      <li><span>نسكافيه</span><span>35</span></li>
+      <li><span>شاي بلبن</span><span>25</span></li>
+      <li><span>شاي أخضر</span><span>15</span></li>
+      <li><span>ينسون</span><span>19</span></li>
+      <li><span>نعناع</span><span>19</span></li>
+      <li><span>كركديه</span><span>19</span></li>
+      <li><span>كابتشينو لاتيه</span><span>45</span></li>
+      <li><span>كابتشينو موكا</span><span>45</span></li>
+      <li><span>هوت شوكليت</span><span>45</span></li>
+      <li><span>سحلب</span><span>32</span></li>
+      <li><span>سحلب مكسرات</span><span>35</span></li>
+      <li><span>هوت سيدر</span><span>25</span></li>
+      <li><span>قرفة بلبن</span><span>25</span></li>
+    </ul>
+  </section>
 
-    <section class="tickets">
-      <h2>التذاكر</h2>
-      <p class="hint">اختر النوع المناسب — الأسعار تشمل الإفطار والغداء وبعض الأنشطة.</p>
-      <div class="ticket-cards">
-        <div class="ticket">
-          <h3>عادية (المتوسط)</h3>
-          <p class="price">1000 جنيه</p>
-          <ul>
-            <li>طلعه خيل بشكل جديد - مستوي متوسط</li>
-            <li>تصوير فيديوهات وصور مميزه بالخيل</li>
-            <li>إفطار (فطير، جبنة، عسل) + غداء (دجاج، كفتة، أرز وسلطات)</li>
-            <li>جميع الانشطه الترفيهيه سينما وبلياردو والعاب ورقيه ,الخ</li>
-          </ul>
-          <button class="btn select-ticket" data-ticket="المتوسط" data-price="1000">اختر المتوسط — 1000 ج</button>
-        </div>
-        <div class="ticket recommended">
-          <h3>المحترف (VIP)</h3>
-          <p class="price">1500 جنيه</p>
-          <ul>
-            <li>كل مميزات الـ"متوسط"</li>
-            <li>طلعه خيل بشكل جديد - مستوي محترف</li>
-            <li>مقعد مميز أو موقع أفضل</li>
-            <li>تصوير تذكاري وخدمات مميزة</li>
-          </ul>
-          <button class="btn select-ticket" data-ticket="المحترف" data-price="1500">اختر المحترف — 1500 ج</button>
-        </div>
-      </div>
-    </section>
+  <section>
+    <h2>🧊 مشروبات باردة</h2>
+    <ul>
+      <li><span>ايس كوفي</span><span>55</span></li>
+      <li><span>ريدبول</span><span>70</span></li>
+      <li><span>بيبسي</span><span>25</span></li>
+      <li><span>كوكاكولا</span><span>25</span></li>
+    </ul>
+  </section>
 
-    <section class="booking" id="booking">
-      <h2>نموذج الحجز</h2>
-      <form id="bookingForm">
-        <div class="row">
-          <label>الاسم الكامل <input type="text" name="name" required></label>
-          <label>رقم الموبايل <input type="tel" name="phone" required placeholder="01xxxxxxxxx"></label>
-        </div>
-        <div class="row">
-          <label>نوع التذكرة
-            <select name="ticket" id="ticketSelect" required>
-              <option value="">اختر نوع التذكرة</option>
-              <option value="المتوسط">المتوسط — 1000 جنيه</option>
-              <option value="المحترف">المحترف — 1500 جنيه</option>
-            </select>
-          </label>
-          <label>طريقة الدفع
-            <select name="payment" required>
-              <option value="cash">كاش عند الوصول (بيتم دفع عربون حجز)</option>
-              <option value="vodafone_cash">فودافون كاش</option>
-              <option value="nesta_pay">نستا باي</option>
-            </select>
-          </label>
-        </div>
-        <p class="note">بعد الضغط على "إرسال الطلب" سيفتح واتساب مع رسالة الحجز الجاهزة لإرسالها فورًا.</p>
-        <button class="btn primary" type="submit">إرسال الحجز عبر واتساب</button>
-      </form>
+  <section>
+    <h2>🍹 عصائر فريش</h2>
+    <ul>
+      <li><span>برتقال</span><span>35</span></li>
+      <li><span>مانجو</span><span>40</span></li>
+      <li><span>جوافة</span><span>45</span></li>
+      <li><span>فراولة</span><span>40</span></li>
+      <li><span>ليمون</span><span>30</span></li>
+      <li><span>ليمون نعناع</span><span>30</span></li>
+      <li><span>موز بلبن</span><span>35</span></li>
+    </ul>
+  </section>
 
-      <div id="formResult" class="result" style="display:none;"></div>
-    </section>
-
-    <section class="contact">
-      <h2>تواصل معنا</h2>
-      <p>للاستفسارات: <a href="tel:+201014027210">01014027210</a> — <a id="waLink" href="https://wa.me/201014027210" target="_blank">واتساب مباشر</a></p>
-      <p>ا</p>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <p>© 2025 MRGH Events • تصميم وتنفيذ ABSHER TECH</p>
+  <footer>
+    <p>SPOTKER & GH Café © 2025</p>
+    <p>Scan QR to open menu 📱</p>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
